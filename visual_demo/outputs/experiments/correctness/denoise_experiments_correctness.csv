@@ -1,0 +1,5 @@
+case,group,backend,update_mode,n,hidden,image_h,image_w,kernel_h,kernel_w,total_iters,num_steps,num_iters_per_step,scale,range_mode,run_mode,status,primary_constraints,secondary_constraints,primary_variables,secondary_variables,proof_size_bytes,recursive_prove_ms,compressed_prove_ms,compressed_verify_ms,witness_gen_ms,setup_ms,error
+correctness_mlp_16,correctness,MLP,DoubleFloor,16,16,,,,,4,2,2,16,Bits,FullProof,OK,345164,10550,349680,10532,13088,1049.056,2636.374,117.301,0.160,5355.113,
+correctness_mlp_32,correctness,MLP,DoubleFloor,32,32,,,,,4,2,2,16,Bits,FullProof,OK,1218848,10550,1236036,10532,14389,3361.206,7938.325,344.030,0.375,20309.852,
+correctness_conv_4x4,correctness,Conv,DoubleFloor,16,,4,4,3,3,4,2,2,16,Bits,FullProof,OK,29100,10550,28932,10532,11317,170.425,924.699,44.893,0.088,1163.351,
+correctness_conv_8x8,correctness,Conv,DoubleFloor,64,,8,8,3,3,4,2,2,16,Bits,FullProof,OK,59556,10550,58524,10532,11692,186.237,1021.260,34.907,0.123,1665.775,

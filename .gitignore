@@ -1,0 +1,57 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+
+# Local thesis drafts and generated thesis workspace
+/thesis/
+/论文草稿.md
+/论文草稿.docx
+/论文草稿*.md
+/论文草稿*.docx
+
+# Archives and ad-hoc exported bundles
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Codex / local agent state
+/.codex
+/.codex/
+/.agents/
+.codex/
+.agents/
+*.codex
+*.codex.*
+
+# Experiment and visualization outputs
+/outputs/
+/visual_demo/node_modules/
+/visual_demo/dist/
+/visual_demo/.vite/
+/visual_demo/package-lock.json
+
+# LaTeX build artifacts, in case thesis sources are temporarily unignored
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~

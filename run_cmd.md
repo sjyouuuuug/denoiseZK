@@ -1,0 +1,10 @@
+cargo run --release --bin affine_demo
+cargo run --release --bin affine_relu_lookup_demo
+cargo run --release --bin affine_clipped_relu_lookup_demo
+cargo run --release --bin mlp_clipped_relu_lookup_demo
+cargo run --release --bin mlp_fixed_point_clipped_relu_lookup_demo
+cargo run --release --bin mlp_fixed_point_experiments
+cargo run --release --bin denoise_fixed_point_demo
+cargo run --release --bin denoise_fixed_point_time_embedding_demo
+cargo run --release --bin denoise_fixed_point_time_embedding_padded_demo
+cargo run --release --bin denoise_fixed_point_time_embedding_padded_output_demo

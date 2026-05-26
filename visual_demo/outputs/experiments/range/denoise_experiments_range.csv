@@ -1,0 +1,3 @@
+case,group,backend,update_mode,n,hidden,image_h,image_w,kernel_h,kernel_w,total_iters,num_steps,num_iters_per_step,scale,range_mode,run_mode,status,primary_constraints,secondary_constraints,primary_variables,secondary_variables,proof_size_bytes,recursive_prove_ms,compressed_prove_ms,compressed_verify_ms,witness_gen_ms,setup_ms,error
+range_conv_8x8_onehot,range,Conv,DoubleFloor,64,,8,8,3,3,2,1,2,16,OneHot,FullProof,OK,101168,10550,99682,10532,11797,84.642,1617.378,106.591,0.078,1214.698,
+range_conv_8x8_bits,range,Conv,DoubleFloor,64,,8,8,3,3,2,1,2,16,Bits,FullProof,OK,54848,10550,53748,10532,11429,77.225,1324.852,96.680,0.082,2057.765,
